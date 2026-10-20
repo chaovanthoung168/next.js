@@ -1,0 +1,13 @@
+.git
+node_modules
+.next
+out
+coverage
+.env*
+*.pem
+*.key
+*.tsbuildinfo
+npm-debug.log*
+.idea
+.vscode
+.shipora
