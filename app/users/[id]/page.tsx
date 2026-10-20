@@ -1,3 +1,9 @@
-export default function Users () {
-    return <h1>Users Page</h1>
+export default async function Users ({
+    params,}:{
+    params: Promise<{id: string}>;
+}) {
+
+    const {id} = await params;
+
+    return <h1>Users ID: {id}</h1>;
 }
