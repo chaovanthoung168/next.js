@@ -7,7 +7,7 @@ interface blogPostType {
 
 export const blogPosts: blogPostType[] = [
     {
-        id: 'nextjs-15',
+        id: 'nextjs-15 dfsdf',
         title: 'What is New in Next.js 15',
         description: 'Exploring async params, fdgergmel gcompiler updates, and speed improvements.',
         date: 'May 28, 2026 qqq'
